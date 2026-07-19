@@ -21,6 +21,18 @@ backgroundSprite.src = 'assets/background.png';
 
 let coinSound = new Audio('assets/collect.mp3'); 
 
+// VOLUME CONTROL
+
+let volumeSlider = document.getElementById('volumeSlider');
+let volumeValue = document.getElementById('volumeValue');
+
+coinSound.volume = volumeSlider.value;
+
+volumeSlider.addEventListener('input', function() {
+    let currentVolume = volumeSlider.value;
+    coinSound.volume = currentVolume;
+    volumeValue.innerText = Math.round(currentVolume * 100) + "%";
+});
 
 // GAME STATE VARIABLES
 
