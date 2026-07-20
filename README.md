@@ -8,4 +8,4 @@ A fast-paced, 2D arcade survival game built with HTML5 Canvas and JavaScript. Do
 
 ## Legal Disclaimer
 This project is an educational, non-commercial game engine practice exercise. 
-The Spider-Man and Green Goblin character sprite assets used in this project are property of Marvel Entertainment / The Walt Disney Company. No copyright infringement is intended.
+The Spider-Man and Green Goblin characters represented in this project are property of Marvel Entertainment / The Walt Disney Company. No copyright infringement is intended.
